@@ -11,7 +11,7 @@
         <!--Root View Controller-->
         <scene sceneID="zIa-qZ-4nl">
             <objects>
-                <tableViewController id="LDg-sb-9k3" sceneMemberID="viewController">
+                <tableViewController id="LDg-sb-9k3" customClass="WinnersTableViewController" customModule="Champions" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NfU-jr-DJ4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="564" y="211"/>
         </scene>
-        <!--View Controller-->
+        <!--World Cup View Controller-->
         <scene sceneID="dsp-4f-dty">
             <objects>
-                <viewController id="sUY-93-bBg" sceneMemberID="viewController">
+                <viewController id="sUY-93-bBg" customClass="WorldCupViewController" customModule="Champions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cgg-te-Glc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
