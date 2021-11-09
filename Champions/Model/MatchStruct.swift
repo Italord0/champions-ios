@@ -8,6 +8,6 @@
 import Foundation
 
 struct MatchStruct : Codable {
-    let stages: String
+    let stage: String
     let games : [GameStruct]
 }
