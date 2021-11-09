@@ -10,13 +10,14 @@
 		571EA9D7273A45A200E1DD88 /* GameStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9D6273A45A200E1DD88 /* GameStruct.swift */; };
 		571EA9D9273A45D300E1DD88 /* MatchStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9D8273A45D300E1DD88 /* MatchStruct.swift */; };
 		571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */; };
+		571EA9E3273A4A8D00E1DD88 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 571EA9E2273A4A8D00E1DD88 /* winners.json */; };
+		571EA9E6273A4AB000E1DD88 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9E5273A4AB000E1DD88 /* Util.swift */; };
 		57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC842736CE8200A619CA /* AppDelegate.swift */; };
 		57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC862736CE8200A619CA /* SceneDelegate.swift */; };
 		57CDFC8C2736CE8200A619CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CDFC8A2736CE8200A619CA /* Main.storyboard */; };
 		57CDFC8F2736CE8200A619CA /* Champions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC8D2736CE8200A619CA /* Champions.xcdatamodeld */; };
 		57CDFC912736CE8A00A619CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CDFC902736CE8A00A619CA /* Assets.xcassets */; };
 		57CDFC942736CE8A00A619CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CDFC922736CE8A00A619CA /* LaunchScreen.storyboard */; };
-		57CDFC9D2736CFAA00A619CA /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 57CDFC9C2736CFAA00A619CA /* winners.json */; };
 		57CDFCA02736F38000A619CA /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */; };
 		57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 		571EA9D6273A45A200E1DD88 /* GameStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStruct.swift; sourceTree = "<group>"; };
 		571EA9D8273A45D300E1DD88 /* MatchStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStruct.swift; sourceTree = "<group>"; };
 		571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupStruct.swift; sourceTree = "<group>"; };
+		571EA9E2273A4A8D00E1DD88 /* winners.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = winners.json; path = ../../../winners.json; sourceTree = "<group>"; };
+		571EA9E5273A4AB000E1DD88 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ../../../Util.swift; sourceTree = "<group>"; };
 		57CDFC812736CE8200A619CA /* Champions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Champions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CDFC842736CE8200A619CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CDFC862736CE8200A619CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +36,6 @@
 		57CDFC902736CE8A00A619CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57CDFC932736CE8A00A619CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57CDFC952736CE8A00A619CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57CDFC9C2736CFAA00A619CA /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = winners.json; path = "../../../../Downloads/Arquivos CampeoesDaCopa/winners.json"; sourceTree = "<group>"; };
 		57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +61,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		571EA9E1273A4A5700E1DD88 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				571EA9E2273A4A8D00E1DD88 /* winners.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		571EA9E4273A4AA000E1DD88 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				571EA9E5273A4AB000E1DD88 /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		57CDFC782736CE8200A619CA = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +96,11 @@
 		57CDFC832736CE8200A619CA /* Champions */ = {
 			isa = PBXGroup;
 			children = (
+				571EA9E4273A4AA000E1DD88 /* Util */,
+				571EA9E1273A4A5700E1DD88 /* Data */,
 				571EA9D5273A458900E1DD88 /* Model */,
 				57CDFCA12736F54A00A619CA /* Controllers */,
 				57CDFC9E2736F2E900A619CA /* Views */,
-				57CDFC9B2736CF6F00A619CA /* Files */,
 				57CDFC842736CE8200A619CA /* AppDelegate.swift */,
 				57CDFC862736CE8200A619CA /* SceneDelegate.swift */,
 				57CDFC902736CE8A00A619CA /* Assets.xcassets */,
@@ -89,14 +108,6 @@
 				57CDFC8D2736CE8200A619CA /* Champions.xcdatamodeld */,
 			);
 			path = Champions;
-			sourceTree = "<group>";
-		};
-		57CDFC9B2736CF6F00A619CA /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				57CDFC9C2736CFAA00A619CA /* winners.json */,
-			);
-			path = Files;
 			sourceTree = "<group>";
 		};
 		57CDFC9E2736F2E900A619CA /* Views */ = {
@@ -177,7 +188,7 @@
 			files = (
 				57CDFC942736CE8A00A619CA /* LaunchScreen.storyboard in Resources */,
 				57CDFC912736CE8A00A619CA /* Assets.xcassets in Resources */,
-				57CDFC9D2736CFAA00A619CA /* winners.json in Resources */,
+				571EA9E3273A4A8D00E1DD88 /* winners.json in Resources */,
 				57CDFC8C2736CE8200A619CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				571EA9D7273A45A200E1DD88 /* GameStruct.swift in Sources */,
+				571EA9E6273A4AB000E1DD88 /* Util.swift in Sources */,
 				57CDFCA02736F38000A619CA /* WinnersTableViewController.swift in Sources */,
 				571EA9D9273A45D300E1DD88 /* MatchStruct.swift in Sources */,
 				57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */,
