@@ -12,6 +12,7 @@
 		571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */; };
 		571EA9E8273A502500E1DD88 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9E7273A502500E1DD88 /* Util.swift */; };
 		571EA9EA273A503100E1DD88 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 571EA9E9273A503100E1DD88 /* winners.json */; };
+		57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */; };
 		57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC842736CE8200A619CA /* AppDelegate.swift */; };
 		57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC862736CE8200A619CA /* SceneDelegate.swift */; };
 		57CDFC8C2736CE8200A619CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CDFC8A2736CE8200A619CA /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupStruct.swift; sourceTree = "<group>"; };
 		571EA9E7273A502500E1DD88 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		571EA9E9273A503100E1DD88 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
+		57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewCell.swift; sourceTree = "<group>"; };
 		57CDFC812736CE8200A619CA /* Champions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Champions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CDFC842736CE8200A619CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57CDFC862736CE8200A619CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		57A5C799273B5573000B8400 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		57CDFC782736CE8200A619CA = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 		57CDFC832736CE8200A619CA /* Champions */ = {
 			isa = PBXGroup;
 			children = (
+				57A5C799273B5573000B8400 /* Cell */,
 				571EA9E4273A4AA000E1DD88 /* Util */,
 				571EA9E1273A4A5700E1DD88 /* Data */,
 				571EA9D5273A458900E1DD88 /* Model */,
@@ -208,6 +219,7 @@
 				571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */,
 				57CDFC8F2736CE8200A619CA /* Champions.xcdatamodeld in Sources */,
 				57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */,
+				57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */,
 				57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
