@@ -21,6 +21,7 @@
 		57CDFC942736CE8A00A619CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CDFC922736CE8A00A619CA /* LaunchScreen.storyboard */; };
 		57CDFCA02736F38000A619CA /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */; };
 		57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */; };
+		57EF3B91274057FA0012A82A /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF3B90274057FA0012A82A /* IntExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		57CDFC952736CE8A00A619CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
+		57EF3B90274057FA0012A82A /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		571EA9E4273A4AA000E1DD88 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				57EF3B8F274057EB0012A82A /* Extensions */,
 				571EA9E7273A502500E1DD88 /* Util.swift */,
 			);
 			path = Util;
@@ -137,6 +140,14 @@
 				57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57EF3B8F274057EB0012A82A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57EF3B90274057FA0012A82A /* IntExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 				571EA9E8273A502500E1DD88 /* Util.swift in Sources */,
 				57CDFCA02736F38000A619CA /* WinnersTableViewController.swift in Sources */,
 				571EA9D9273A45D300E1DD88 /* MatchStruct.swift in Sources */,
+				57EF3B91274057FA0012A82A /* IntExtensions.swift in Sources */,
 				57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */,
 				571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */,
 				57CDFC8F2736CE8200A619CA /* Champions.xcdatamodeld in Sources */,
