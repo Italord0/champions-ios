@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Campeões-->
         <scene sceneID="zIa-qZ-4nl">
             <objects>
                 <tableViewController id="LDg-sb-9k3" customClass="WinnersTableViewController" customModule="Champions" customModuleProvider="target" sceneMemberID="viewController">
@@ -145,7 +145,7 @@
                             <outlet property="delegate" destination="LDg-sb-9k3" id="hxY-T1-McC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="MGT-Td-4p9"/>
+                    <navigationItem key="navigationItem" title="Campeões" id="MGT-Td-4p9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gas-7D-L8t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
