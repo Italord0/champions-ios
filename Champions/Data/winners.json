@@ -1,4 +1,72 @@
-[{
+[
+   {
+        "year": 2018,
+        "country": "Rússia",
+        "winner": "França",
+        "vice": "Croácia",
+        "winnerScore": "4",
+        "viceScore": "2",
+        "matches": [{
+                "stage": "Fase de grupos",
+                "games": [{
+                        "home": "França",
+                        "away": "Austrália",
+                        "score": "2 x 1",
+                        "date": "16 de junho"
+                    },
+                    {
+                        "home": "França",
+                        "away": "Peru",
+                        "score": "1 x 0",
+                        "date": "21 de junho"
+                    },
+                    {
+                        "home": "Dinamarca",
+                        "away": "França",
+                        "score": "0 x 0",
+                        "date": "26 de junho"
+                    }
+                ]
+            },
+            {
+                "stage": "Oitavas de Final",
+                "games": [{
+                    "home": "França",
+                    "away": "Argentina",
+                    "score": "4 x 3",
+                    "date": "30 de junho"
+                }]
+            },
+            {
+                "stage": "Quartas de Final",
+                "games": [{
+                    "home": "Uruguai",
+                    "away": "França",
+                    "score": "0 x 2",
+                    "date": "6 de julho"
+                }]
+            },
+            {
+                "stage": "Semifinais",
+                "games": [{
+                    "home": "França",
+                    "away": "Bélgica",
+                    "score": "1 x 0",
+                    "date": "10 de julho"
+                }]
+            },
+            {
+                "stage": "Final",
+                "games": [{
+                    "home": "França",
+                    "away": "Croácia",
+                    "score": "4 x 2",
+                    "date": "15 de julho"
+                }]
+            }
+        ]
+    },
+    {
         "year": 2014,
         "country": "Brasil",
         "winner": "Alemanha",
