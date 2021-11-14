@@ -22,6 +22,7 @@
 		57CDFCA02736F38000A619CA /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */; };
 		57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */; };
 		57EF3B91274057FA0012A82A /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF3B90274057FA0012A82A /* IntExtensions.swift */; };
+		57EF3B93274083610012A82A /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF3B92274083610012A82A /* GamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		57EF3B90274057FA0012A82A /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		57EF3B92274083610012A82A /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */,
+				57EF3B92274083610012A82A /* GamesTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				57EF3B91274057FA0012A82A /* IntExtensions.swift in Sources */,
 				57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */,
 				571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */,
+				57EF3B93274083610012A82A /* GamesTableViewCell.swift in Sources */,
 				57CDFC8F2736CE8200A619CA /* Champions.xcdatamodeld in Sources */,
 				57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */,
 				57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */,
