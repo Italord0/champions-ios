@@ -34,5 +34,12 @@ class WinnersTableViewController: UITableViewController {
         cell.configure(with: worldcup)
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let viewController =  segue.destination as! WorldCupViewController
+        let worldCup = worldCups[tableView.indexPathForSelectedRow!.row]
+        
+        viewController.worldCup = worldCup
+    }
 
 }
