@@ -23,3 +23,6 @@ Aplicativo para listar os campeões das copas do mundo, e sua trajetória até a
 
 ## 👨‍💻 Ferramentas utilizadas
 - [Xcode](https://developer.apple.com/xcode/)
+=======
+# champions-ios
+Simple iOS App for displaying Football World Cup champions and games
