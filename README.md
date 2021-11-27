@@ -6,11 +6,14 @@
  
 ## 📱 Aplicativo Campeões das copas
 
-<img src="https://user-images.githubusercontent.com/32901063/141662594-9b1bfd6d-ef68-4a8d-9e18-859eef49d608.png" width="200">
+<p float="left">
+<img src="https://user-images.githubusercontent.com/32901063/143719806-274005af-515b-484a-8413-f7d101f7fcae.png" width="250">
+<img src="https://user-images.githubusercontent.com/32901063/143719812-3a9d4b96-cd10-4801-84ad-2a4c97d4beb1.png" width="250">
+</p>
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/32901063/141664270-ee553cdb-156f-42e1-b6f0-ef9830355ec8.png" width="250">
-<img src="https://user-images.githubusercontent.com/32901063/141662615-bdff64e8-3654-47f8-af07-920938da820d.png" width="250">
+<img src="https://user-images.githubusercontent.com/32901063/143719813-bbac3ba9-135b-4468-a1c0-dc5777e7f222.png" width="250">
+<img src="https://user-images.githubusercontent.com/32901063/143719816-ae6b8605-c70a-4b2e-8be0-59a648721faa.png" width="250">
 </p>
 
 ## :rocket: Tecnologias
