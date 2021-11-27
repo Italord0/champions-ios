@@ -57,7 +57,6 @@ class WorldCupViewController: UIViewController , UITableViewDataSource, UITableV
         lbScore.text = "\(worldCup.winnerScore) x \(worldCup.viceScore)"
         lbWinner.text = worldCup.winner
         lbVice.text = worldCup.vice
-        
     }
 
 }

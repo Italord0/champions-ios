@@ -21,7 +21,7 @@ class WinnersTableViewCell: UITableViewCell {
     @IBOutlet weak var lbVice: UILabel!
     @IBOutlet weak var lbViceScore: UILabel!
     
-    func configure(with worldCup : WorldCupStruct) {
+    func prepare(with worldCup : WorldCupStruct) {
         lbYear.text = String(worldCup.year)
         lbCountry.text = worldCup.country
         
@@ -32,17 +32,6 @@ class WinnersTableViewCell: UITableViewCell {
         ivVice.image = UIImage(named: worldCup.vice)
         lbVice.text = worldCup.vice
         lbViceScore.text = worldCup.viceScore
-    }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }

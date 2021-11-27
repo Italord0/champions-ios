@@ -31,7 +31,7 @@ class WinnersTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "WinnersCell", for: indexPath) as! WinnersTableViewCell
         let worldcup = worldCups[indexPath.row]
-        cell.configure(with: worldcup)
+        cell.prepare(with: worldcup)
         return cell
     }
     

@@ -14,6 +14,8 @@
 		571EA9EA273A503100E1DD88 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 571EA9E9273A503100E1DD88 /* winners.json */; };
 		576AC2052751EDF60031BDED /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC2042751EDF60031BDED /* CountriesViewController.swift */; };
 		576AC2072751EF110031BDED /* CountryChampionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC2062751EF100031BDED /* CountryChampionStruct.swift */; };
+		576AC2092752AB940031BDED /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC2082752AB940031BDED /* CountriesTableViewCell.swift */; };
+		576AC20B2752B58A0031BDED /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC20A2752B58A0031BDED /* CountryDetailViewController.swift */; };
 		57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */; };
 		57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC842736CE8200A619CA /* AppDelegate.swift */; };
 		57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC862736CE8200A619CA /* SceneDelegate.swift */; };
@@ -35,6 +37,8 @@
 		571EA9E9273A503100E1DD88 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
 		576AC2042751EDF60031BDED /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		576AC2062751EF100031BDED /* CountryChampionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryChampionStruct.swift; sourceTree = "<group>"; };
+		576AC2082752AB940031BDED /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		576AC20A2752B58A0031BDED /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 		57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewCell.swift; sourceTree = "<group>"; };
 		57CDFC812736CE8200A619CA /* Champions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Champions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CDFC842736CE8200A619CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				576AC2042751EDF60031BDED /* CountriesViewController.swift */,
+				576AC20A2752B58A0031BDED /* CountryDetailViewController.swift */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			children = (
 				57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */,
 				57EF3B92274083610012A82A /* GamesTableViewCell.swift */,
+				576AC2082752AB940031BDED /* CountriesTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 				571EA9D9273A45D300E1DD88 /* MatchStruct.swift in Sources */,
 				576AC2052751EDF60031BDED /* CountriesViewController.swift in Sources */,
 				57EF3B91274057FA0012A82A /* IntExtensions.swift in Sources */,
+				576AC20B2752B58A0031BDED /* CountryDetailViewController.swift in Sources */,
 				576AC2072751EF110031BDED /* CountryChampionStruct.swift in Sources */,
 				57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */,
 				571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */,
@@ -261,6 +268,7 @@
 				57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */,
 				57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */,
 				57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */,
+				576AC2092752AB940031BDED /* CountriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
