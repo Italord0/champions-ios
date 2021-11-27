@@ -22,4 +22,33 @@ class Util {
         }
         return result
     }
+    
+    static func loadWinners() -> [CountryChampionStruct] {
+        var result = [CountryChampionStruct]()
+        var winners = [String]()
+        let cups = loadWorldCups()
+        
+        cups.forEach { cup in
+            winners.append(cup.winner)
+        }
+        
+        winners = removeRepeatingStrings(from: winners)
+        
+        winners.forEach { winner in
+            var cupsWon = [WorldCupStruct]()
+            cups.forEach { cup in
+                if (winner == cup.winner) {
+                    cupsWon.append(cup)
+                }
+            }
+            result.append(CountryChampionStruct(winner: winner, cups: cupsWon))
+        }
+        
+        return result
+    }
+    
+    static func removeRepeatingStrings(from items: [String]) -> [String] {
+        let uniqueItems = NSOrderedSet(array: items)
+        return (uniqueItems.array as? [String]) ?? []
+    }
 }

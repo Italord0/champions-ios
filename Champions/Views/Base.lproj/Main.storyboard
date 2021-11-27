@@ -340,18 +340,40 @@
         <!--Países-->
         <scene sceneID="fOe-m3-1ky">
             <objects>
-                <viewController id="mRd-tE-eYJ" sceneMemberID="viewController">
+                <viewController id="mRd-tE-eYJ" customClass="CountriesViewController" customModule="Champions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9XX-VK-G7F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eHP-Rc-9ig">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="5D4-W0-m4m">
+                                        <rect key="frame" x="0.0" y="44.5" width="375" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5D4-W0-m4m" id="n3f-Gc-sr8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ArK-sQ-bwJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eHP-Rc-9ig" firstAttribute="top" secondItem="ArK-sQ-bwJ" secondAttribute="top" id="6ob-ZM-aLy"/>
+                            <constraint firstItem="ArK-sQ-bwJ" firstAttribute="trailing" secondItem="eHP-Rc-9ig" secondAttribute="trailing" id="Fn3-6r-Nqq"/>
+                            <constraint firstItem="ArK-sQ-bwJ" firstAttribute="bottom" secondItem="eHP-Rc-9ig" secondAttribute="bottom" id="cSb-BV-Ikz"/>
+                            <constraint firstItem="eHP-Rc-9ig" firstAttribute="leading" secondItem="ArK-sQ-bwJ" secondAttribute="leading" id="nnI-G1-VLO"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Países" image="globe.americas" catalog="system" id="nLp-kA-Lbb"/>
+                    <navigationItem key="navigationItem" title="Países" id="2Fn-jG-rPg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZl-Y4-kX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1548" y="985"/>
+            <point key="canvasLocation" x="2487.1999999999998" y="984.55772113943033"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="D0S-fQ-MOm">
@@ -364,12 +386,31 @@
                     </tabBar>
                     <connections>
                         <segue destination="VxP-Kk-4gC" kind="relationship" relationship="viewControllers" id="Gnr-jg-1tM"/>
-                        <segue destination="mRd-tE-eYJ" kind="relationship" relationship="viewControllers" id="Cvp-JB-qty"/>
+                        <segue destination="f7p-Mo-Ytu" kind="relationship" relationship="viewControllers" id="Cvp-JB-qty"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eET-2L-ckt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="608.79999999999995" y="210.94452773613196"/>
+        </scene>
+        <!--Países-->
+        <scene sceneID="Kwi-cz-2XM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f7p-Mo-Ytu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Países" image="globe.americas" catalog="system" id="nLp-kA-Lbb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="qWm-JK-VOh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mRd-tE-eYJ" kind="relationship" relationship="rootViewController" id="q6e-VF-h4U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUP-w6-GSQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="984.55772113943033"/>
         </scene>
     </scenes>
     <resources>
