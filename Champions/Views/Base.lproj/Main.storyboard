@@ -324,7 +324,7 @@
         <scene sceneID="I9c-h2-ft9">
             <objects>
                 <navigationController id="VxP-Kk-4gC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Copas" id="nlA-tH-nm4"/>
+                    <tabBarItem key="tabBarItem" title="Copas" image="ic_trofeu" id="nlA-tH-nm4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="mp9-IC-fj2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -347,7 +347,7 @@
                         <viewLayoutGuide key="safeArea" id="ArK-sQ-bwJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Países" id="nLp-kA-Lbb"/>
+                    <tabBarItem key="tabBarItem" title="Países" image="globe.americas" catalog="system" id="nLp-kA-Lbb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZl-Y4-kX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,7 +377,9 @@
         <image name="Argentina" width="138" height="93"/>
         <image name="calendar" width="56" height="56"/>
         <image name="globe" width="56" height="56"/>
+        <image name="globe.americas" catalog="system" width="128" height="121"/>
         <image name="header" width="1200" height="514"/>
+        <image name="ic_trofeu" width="25" height="25"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
