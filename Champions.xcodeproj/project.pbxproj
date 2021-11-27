@@ -12,6 +12,10 @@
 		571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */; };
 		571EA9E8273A502500E1DD88 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EA9E7273A502500E1DD88 /* Util.swift */; };
 		571EA9EA273A503100E1DD88 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 571EA9E9273A503100E1DD88 /* winners.json */; };
+		576AC2052751EDF60031BDED /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC2042751EDF60031BDED /* CountriesViewController.swift */; };
+		576AC2072751EF110031BDED /* CountryChampionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC2062751EF100031BDED /* CountryChampionStruct.swift */; };
+		576AC2092752AB940031BDED /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC2082752AB940031BDED /* CountriesTableViewCell.swift */; };
+		576AC20B2752B58A0031BDED /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AC20A2752B58A0031BDED /* CountryDetailViewController.swift */; };
 		57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */; };
 		57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC842736CE8200A619CA /* AppDelegate.swift */; };
 		57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFC862736CE8200A619CA /* SceneDelegate.swift */; };
@@ -31,6 +35,10 @@
 		571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupStruct.swift; sourceTree = "<group>"; };
 		571EA9E7273A502500E1DD88 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		571EA9E9273A503100E1DD88 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
+		576AC2042751EDF60031BDED /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		576AC2062751EF100031BDED /* CountryChampionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryChampionStruct.swift; sourceTree = "<group>"; };
+		576AC2082752AB940031BDED /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		576AC20A2752B58A0031BDED /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 		57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewCell.swift; sourceTree = "<group>"; };
 		57CDFC812736CE8200A619CA /* Champions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Champions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CDFC842736CE8200A619CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,7 @@
 				571EA9D6273A45A200E1DD88 /* GameStruct.swift */,
 				571EA9D8273A45D300E1DD88 /* MatchStruct.swift */,
 				571EA9DA273A45F900E1DD88 /* WorldCupStruct.swift */,
+				576AC2062751EF100031BDED /* CountryChampionStruct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,11 +93,30 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		576AC2022751EDC80031BDED /* Cups */ = {
+			isa = PBXGroup;
+			children = (
+				57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */,
+				57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */,
+			);
+			path = Cups;
+			sourceTree = "<group>";
+		};
+		576AC2032751EDDD0031BDED /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				576AC2042751EDF60031BDED /* CountriesViewController.swift */,
+				576AC20A2752B58A0031BDED /* CountryDetailViewController.swift */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
 		57A5C799273B5573000B8400 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				57A5C79A273B55AD000B8400 /* WinnersTableViewCell.swift */,
 				57EF3B92274083610012A82A /* GamesTableViewCell.swift */,
+				576AC2082752AB940031BDED /* CountriesTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -139,8 +167,8 @@
 		57CDFCA12736F54A00A619CA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				57CDFC9F2736F38000A619CA /* WinnersTableViewController.swift */,
-				57CDFCA22736F92B00A619CA /* WorldCupViewController.swift */,
+				576AC2032751EDDD0031BDED /* Countries */,
+				576AC2022751EDC80031BDED /* Cups */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -229,7 +257,10 @@
 				571EA9E8273A502500E1DD88 /* Util.swift in Sources */,
 				57CDFCA02736F38000A619CA /* WinnersTableViewController.swift in Sources */,
 				571EA9D9273A45D300E1DD88 /* MatchStruct.swift in Sources */,
+				576AC2052751EDF60031BDED /* CountriesViewController.swift in Sources */,
 				57EF3B91274057FA0012A82A /* IntExtensions.swift in Sources */,
+				576AC20B2752B58A0031BDED /* CountryDetailViewController.swift in Sources */,
+				576AC2072751EF110031BDED /* CountryChampionStruct.swift in Sources */,
 				57CDFCA32736F92B00A619CA /* WorldCupViewController.swift in Sources */,
 				571EA9DB273A45F900E1DD88 /* WorldCupStruct.swift in Sources */,
 				57EF3B93274083610012A82A /* GamesTableViewCell.swift in Sources */,
@@ -237,6 +268,7 @@
 				57CDFC852736CE8200A619CA /* AppDelegate.swift in Sources */,
 				57A5C79B273B55AD000B8400 /* WinnersTableViewCell.swift in Sources */,
 				57CDFC872736CE8200A619CA /* SceneDelegate.swift in Sources */,
+				576AC2092752AB940031BDED /* CountriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFBH9Z67M2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Champions/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -413,6 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFBH9Z67M2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Champions/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

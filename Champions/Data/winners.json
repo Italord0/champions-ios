@@ -471,26 +471,26 @@
     {
         "year": 1990,
         "country": "Itália",
-        "winner": "Alemanha Ocidental",
+        "winner": "Alemanha",
         "vice": "Argentina",
         "winnerScore": "1",
         "viceScore": "0",
         "matches": [{
                 "stage": "Fase de grupos",
                 "games": [{
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Iugoslávia",
                         "score": "4 x 1",
                         "date": "10 de junho"
                     },
                     {
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Emirados Árabes",
                         "score": "5 x 1",
                         "date": "15 de junho"
                     },
                     {
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Colômbia",
                         "score": "1 x 1",
                         "date": "19 de junho"
@@ -500,7 +500,7 @@
             {
                 "stage": "Oitavas de Final",
                 "games": [{
-                    "home": "Alemanha Ocidental",
+                    "home": "Alemanha",
                     "away": "Holanda",
                     "score": "2 x 1",
                     "date": "24 de junho"
@@ -510,7 +510,7 @@
                 "stage": "Quartas de Final",
                 "games": [{
                     "home": "Tchecoslováquia",
-                    "away": "Alemanha Ocidental",
+                    "away": "Alemanha",
                     "score": "0 x 1",
                     "date": "1 de julho"
                 }]
@@ -518,7 +518,7 @@
             {
                 "stage": "Semifinais",
                 "games": [{
-                    "home": "Alemanha Ocidental",
+                    "home": "Alemanha",
                     "away": "Inglaterra",
                     "score": "(4) 1 x 1 (3)",
                     "date": "4 de julho"
@@ -528,7 +528,7 @@
                 "stage": "Final",
                 "games": [{
                     "home": "Argentina",
-                    "away": "Alemanha Ocidental",
+                    "away": "Alemanha",
                     "score": "0 x 1",
                     "date": "8 de julho"
                 }]
@@ -539,7 +539,7 @@
         "year": 1986,
         "country": "México",
         "winner": "Argentina",
-        "vice": "Alemanha Ocidental",
+        "vice": "Alemanha",
         "winnerScore": "3",
         "viceScore": "2",
         "matches": [{
@@ -595,7 +595,7 @@
                 "stage": "Final",
                 "games": [{
                     "home": "Argentina",
-                    "away": "Alemanha Ocidental",
+                    "away": "Alemanha",
                     "score": "3 x 2",
                     "date": "29 de junho"
                 }]
@@ -606,7 +606,7 @@
         "year": 1982,
         "country": "Espanha",
         "winner": "Itália",
-        "vice": "Alemanha Ocidental",
+        "vice": "Alemanha",
         "winnerScore": "3",
         "viceScore": "1",
         "matches": [{
@@ -660,7 +660,7 @@
                 "stage": "Final",
                 "games": [{
                     "home": "Itália",
-                    "away": "Alemanha Ocidental",
+                    "away": "Alemanha",
                     "score": "3 x 1",
                     "date": "11 de julho"
                 }]
@@ -731,28 +731,28 @@
     },
     {
         "year": 1974,
-        "country": "Alemanha Ocidental",
-        "winner": "Alemanha Ocidental",
+        "country": "Alemanha",
+        "winner": "Alemanha",
         "vice": "Holanda",
         "winnerScore": "2",
         "viceScore": "1",
         "matches": [{
                 "stage": "Fase de grupos",
                 "games": [{
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Chile",
                         "score": "1 x 0",
                         "date": "14 de junho"
                     },
                     {
                         "home": "Austrália",
-                        "away": "Alemanha Ocidental",
+                        "away": "Alemanha",
                         "score": "0 x 3",
                         "date": "18 de junho"
                     },
                     {
                         "home": "Alemanha Oriental",
-                        "away": "Alemanha Ocidental",
+                        "away": "Alemanha",
                         "score": "1 x 0",
                         "date": "22 de junho"
                     }
@@ -762,19 +762,19 @@
                 "stage": "Segunda Fase",
                 "games": [{
                         "home": "Iugoslávia",
-                        "away": "Alemanha Ocidental",
+                        "away": "Alemanha",
                         "score": "0 x 2",
                         "date": "26 de junho"
                     },
                     {
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Suécia",
                         "score": "4 x 2",
                         "date": "30 de julho"
                     },
                     {
                         "home": "Polônia",
-                        "away": "Alemanha Ocidental",
+                        "away": "Alemanha",
                         "score": "0 x 1",
                         "date": "3 de julho"
                     }
@@ -784,7 +784,7 @@
                 "stage": "Final",
                 "games": [{
                     "home": "Holanda",
-                    "away": "Alemanha Ocidental",
+                    "away": "Alemanha",
                     "score": "1 x 2",
                     "date": "7 de julho"
                 }]
@@ -853,7 +853,7 @@
         "year": 1966,
         "country": "Inglaterra",
         "winner": "Inglaterra",
-        "vice": "Alemanha Ocidental",
+        "vice": "Alemanha",
         "winnerScore": "4",
         "viceScore": "2",
         "matches": [{
@@ -900,7 +900,7 @@
                 "stage": "Final",
                 "games": [{
                     "home": "Inglaterra",
-                    "away": "Alemanha Ocidental",
+                    "away": "Alemanha",
                     "score": "4 x 2",
                     "date": "30 de julho"
                 }]
@@ -1026,26 +1026,26 @@
     {
         "year": 1954,
         "country": "Suíça",
-        "winner": "Alemanha Ocidental",
+        "winner": "Alemanha",
         "vice": "Hungria",
         "winnerScore": "3",
         "viceScore": "2",
         "matches": [{
                 "stage": "Fase de grupos",
                 "games": [{
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Turquia",
                         "score": "4 x 1",
                         "date": "17 de junho"
                     },
                     {
                         "home": "Hungria",
-                        "away": "Alemanha Ocidental",
+                        "away": "Alemanha",
                         "score": "8 x 3",
                         "date": "20 de junho"
                     },
                     {
-                        "home": "Alemanha Ocidental",
+                        "home": "Alemanha",
                         "away": "Turquia",
                         "score": "7 x 2",
                         "date": "23 de junho"
@@ -1055,7 +1055,7 @@
             {
                 "stage": "Quartas de Final",
                 "games": [{
-                    "home": "Alemanha Ocidental",
+                    "home": "Alemanha",
                     "away": "Iugoslávia",
                     "score": "2 x 0",
                     "date": "27 de junho"
@@ -1064,7 +1064,7 @@
             {
                 "stage": "Semifinais",
                 "games": [{
-                    "home": "Alemanha Ocidental",
+                    "home": "Alemanha",
                     "away": "Áustria",
                     "score": "6 x 1",
                     "date": "30 de junho"
@@ -1073,7 +1073,7 @@
             {
                 "stage": "Final",
                 "games": [{
-                    "home": "Alemanha Ocidental",
+                    "home": "Alemanha",
                     "away": "Hungria",
                     "score": "3 x 2",
                     "date": "4 de julho"
