@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VxP-Kk-4gC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ogV-Gt-hZ5">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -150,7 +150,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gas-7D-L8t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="563.768115942029" y="210.9375"/>
+            <point key="canvasLocation" x="2440.8000000000002" y="210.04497751124438"/>
         </scene>
         <!--World Cup-->
         <scene sceneID="dsp-4f-dty">
@@ -206,7 +206,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JZJ-T8-cpu">
-                                <rect key="frame" x="0.0" y="251" width="375" height="416"/>
+                                <rect key="frame" x="0.0" y="251" width="375" height="367"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GamesCell" id="8Yd-H7-Poq" customClass="GamesTableViewCell" customModule="Champions" customModuleProvider="target">
@@ -318,12 +318,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c05-Ie-cCc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="211"/>
+            <point key="canvasLocation" x="3316" y="210.94452773613196"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Copas-->
         <scene sceneID="I9c-h2-ft9">
             <objects>
                 <navigationController id="VxP-Kk-4gC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Copas" id="nlA-tH-nm4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="mp9-IC-fj2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -334,7 +335,41 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lR1-XH-Zhh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-329" y="211"/>
+            <point key="canvasLocation" x="1548" y="210.94452773613196"/>
+        </scene>
+        <!--Países-->
+        <scene sceneID="fOe-m3-1ky">
+            <objects>
+                <viewController id="mRd-tE-eYJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9XX-VK-G7F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ArK-sQ-bwJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Países" id="nLp-kA-Lbb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lZl-Y4-kX7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="985"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="D0S-fQ-MOm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ogV-Gt-hZ5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y5h-3Y-1nr">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VxP-Kk-4gC" kind="relationship" relationship="viewControllers" id="Gnr-jg-1tM"/>
+                        <segue destination="mRd-tE-eYJ" kind="relationship" relationship="viewControllers" id="Cvp-JB-qty"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eET-2L-ckt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="608.79999999999995" y="210.94452773613196"/>
         </scene>
     </scenes>
     <resources>
